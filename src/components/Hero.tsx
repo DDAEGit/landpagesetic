@@ -56,7 +56,7 @@ export function Hero() {
                         {/* Botões */}
                         <div className="flex flex-col sm:flex-row gap-4">
                             <Button size="lg" className="group bg-[#c4703d] hover:bg-[#a85c2e] border-none">
-                                <a className="flex items-center" href="https://gedae.ggpen.gov.ao/ferramenta-de-visualizacao/otchiva/en" rel="noopener noreferrer">
+                                <a className="flex items-center" href="https://gedae.ggpen.gov.ao/tech-gest-setic/" rel="noopener noreferrer">
                                     Explorar
                                     <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
                                 </a>
