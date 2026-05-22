@@ -20,14 +20,15 @@ export function App() {
                 <Community />
 
                 {/* Final CTA Section */}
-                <section className="py-20 bg-[#1a4d2e] relative overflow-hidden">
-                    <div className="absolute inset-0 opacity-20">
+                <section className="py-20 bg-[#2a1206] relative overflow-hidden">
+            <div className="absolute inset-0 opacity-20">
                         <img
-                            src="https://gedae.ggpen.gov.ao/ferramenta-de-visualizacao/otchiva/images/DJI_20251101165323_0820_D.jpg"
+                            src="/estrada.jpg"
                             alt="Forest texture"
-                            className="w-full h-full object-cover grayscale"
+                            className="w-full h-full  grayscale"
                         />
-                    </div>
+            </div>
+            
                     <div className="container mx-auto px-4 md:px-6 relative z-10 text-center">
                         {/* <h2 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6">Ready to make a difference?</h2>
                         <p className="text-xl text-white/80 mb-10 max-w-2xl mx-auto">

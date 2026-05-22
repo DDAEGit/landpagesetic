@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { CheckCircle2 } from "lucide-react";
+
 export function Mission() {
     return (
         <section id="mission" className="py-20 md:py-32 bg-stone-50">
@@ -8,86 +8,63 @@ export function Mission() {
                 <div className="grid md:grid-cols-2 gap-12 md:gap-20 items-center">
                     {/* Image Grid */}
                     <motion.div
-                        initial={{
-                            opacity: 0,
-                            x: -20,
-                        }}
-                        whileInView={{
-                            opacity: 1,
-                            x: 0,
-                        }}
-                        viewport={{
-                            once: true,
-                        }}
-                        transition={{
-                            duration: 0.8,
-                        }}
+                        initial={{ opacity: 0, x: -20 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.8 }}
                         className="relative"
                     >
                         <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl" id="usmore">
                             <img
-                                src="https://gedae.ggpen.gov.ao/ferramenta-de-visualizacao/otchiva/images/DJI_20251031154422_0641_D.jpg"
+                                src="/obra2.jpg"
                                 alt="Angolan community near mangroves"
                                 className="w-full h-full object-cover"
                             />
                         </div>
-                        <div className="absolute -bottom-10 -right-10 w-2/3 aspect-square rounded-2xl overflow-hidden shadow-xl border-8 border-stone-50 hidden md:block">
+
+                        {/* Segunda imagem com animação flutuante */}
+                        <motion.div
+                            animate={{ y: [0, -10, 0] }}
+                            transition={{
+                                duration: 4,
+                                repeat: Infinity,
+                                ease: "easeInOut",
+                            }}
+                            className="absolute -bottom-10 -right-10 w-2/3 aspect-square rounded-2xl overflow-hidden shadow-xl border-8 border-stone-50 hidden md:block"
+                        >
                             <img
-                                src="https://gedae.ggpen.gov.ao/ferramenta-de-visualizacao/otchiva/images/dji_fly_20251031_151542_0023_1761945861463_photo.jpg"
+                                src="Obras-na-estrada.jpg"
                                 alt="Mangrove roots detail"
                                 className="w-full h-full object-cover"
                             />
-                        </div>
+                        </motion.div>
+
                         {/* Decorative element */}
                         <div className="absolute -top-4 -left-4 w-24 h-24 bg-[#c4703d]/10 rounded-full -z-10" />
                     </motion.div>
 
                     {/* Content */}
                     <motion.div
-                        initial={{
-                            opacity: 0,
-                            x: 20,
-                        }}
-                        whileInView={{
-                            opacity: 1,
-                            x: 0,
-                        }}
-                        viewport={{
-                            once: true,
-                        }}
-                        transition={{
-                            duration: 0.8,
-                            delay: 0.2,
-                        }}
+                        initial={{ opacity: 0, x: 20 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.8, delay: 0.2 }}
                     >
-                        <h2 className="text-[#1a4d2e] font-bold text-sm tracking-widest uppercase mb-4">About Us</h2>
+                        <h2 className="text-[#c4703d] font-bold text-sm tracking-widest uppercase mb-4">Sobre Nós</h2>
                         <h3 className="text-4xl md:text-5xl font-serif font-bold text-stone-900 mb-6 leading-tight">
-                            From Satellite to Field: <span className="text-[#1a4d2e]">Mapping</span> Angola’s Mangroves.
+                            Do: <span className="text-[#c4703d]">Satélite à Estrada</span> Fiscalização Transparente e Rigorosa.
                         </h3>
                         <p className="text-lg text-stone-600 mb-8 leading-relaxed">
-                            On June 13, 2025, GGPEN and Otchiva negotiated an agreement for the use of the Digital Platform Maps of Angola
-                            Mangroves.
+                            Angola investe anualmente mais de 2,5 mil milhões de dólares em infra-estruturas rodoviárias.
+                            Para garantir a rentabilidade e qualidade deste investimento, o GGPEN e o MINFIN uniram forças.
+                            Através da integração da plataforma Tech-Gest com o SIGPIP, criámos um mecanismo de fiscalização independente.
                         </p>
-
-                        {/* <ul className="space-y-4 mb-10">
-                            {[
-                                "Protecting coastal communities from erosion and flooding",
-                                "Supporting local fisheries and food security",
-                                "Sequestering carbon to fight climate change",
-                                "Preserving biodiversity unique to Angola",
-                            ].map((item, index) => (
-                                <li key={index} className="flex items-start gap-3">
-                                    <CheckCircle2 className="w-6 h-6 text-[#c4703d] flex-shrink-0 mt-0.5" />
-                                    <span className="text-stone-700 font-medium">{item}</span>
-                                </li>
-                            ))}
-                        </ul> */}
 
                         <div className="p-6 bg-white rounded-xl border border-stone-100 shadow-sm">
                             <p className="text-stone-800 italic font-serif text-lg">
-                                "The tool uses Artificial Intelligence on satellite images for mapping and monitoring mangroves. The
-                                platform presents the exact mapping of the different mangrove zones in Angola with an area equivalent to
-                                approximately 43 thousand hectares having been mapped."
+                                "A ferramenta utiliza imagens de satélite de alta resolução (até 50 cm) e Inteligência Artificial
+                                para a detecção automática de mudanças nas vias. Com uma cobertura superior a 95% do território
+                                nacional, asseguramos o controlo desde a concepção até à conclusão da obra."
                             </p>
                         </div>
                     </motion.div>

@@ -9,12 +9,13 @@ export function Footer() {
                         <div className="flex items-center gap-2 mb-6">
                             <Leaf className="w-6 h-6 text-[#c4703d]" />
                             <span className="font-serif font-bold text-xl tracking-tight">
-                                Angola Mangrove <span className="text-[#c4703d]">Maps</span>
+                                Tech <span className="text-[#c4703d]">-Gest</span>
                             </span>
                         </div>
                         <p className="text-stone-400 max-w-md mb-8 leading-relaxed">
-                            A national initiative combining satellite technology and community action to preserve Angola's vital coastal
-                            ecosystems for future generations.
+                          Uma iniciativa governamental conjunta entre o
+                          MINFIN, MINPLAN e GGPEN/MINTTICS, unindo tecnologia espacial e gestão financeira para preservar os recursos do Estado e garantir infra-
+                          estruturas de excelência em Angola.
                         </p>
                         <div className="flex gap-4">
                             {/* Placeholder Social Icons */}
@@ -60,7 +61,7 @@ export function Footer() {
                         <ul className="space-y-4 text-stone-400">
                             <li className="flex items-center gap-3">
                                 <Mail className="w-5 h-5 text-[#c4703d]" />
-                                <span>info@otchiva.ao</span>
+                                <span>info@ggpen.gov.ao</span>
                             </li>
                             <li className="flex items-center gap-3">
                                 <Phone className="w-5 h-5 text-[#c4703d]" />
@@ -75,9 +76,10 @@ export function Footer() {
                 </div>
 
                 <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-stone-500 text-sm">
-                    <p>&copy; 2026 Angola Mangrove Monitor. All rights reserved.</p>
+                    <p>© 2026 Ministério das Finanças / GGPEN. Todos os
+                    direitos reservados.</p>
                     <div className="flex items-center gap-2">
-                        <span>Built with pride in</span>
+                        <span>Desenvolvido com orgulho em </span>
                         <span className="font-bold text-white">Angola</span>
                         <div className="flex h-3 w-4 border border-white/20">
                             <div className="w-1/2 bg-[#CD2A3E]"></div>

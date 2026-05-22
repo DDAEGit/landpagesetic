@@ -66,7 +66,7 @@ export function Impact() {
                 </div>
               </div> */}
                             <img
-                                src="https://gedae.ggpen.gov.ao/ferramenta-de-visualizacao/otchiva/images/DJI_20251031170523_0701_D.jpg"
+                                src="/trabalhador.jpeg"
                                 alt="Forest texture"
                                 className="w-full h-full object-cover grayscale"
                             />
@@ -75,40 +75,40 @@ export function Impact() {
 
                     {/* Stats Content */}
                     <div className="w-full lg:w-1/2">
-                        <h2 className="text-[#1a4d2e] font-bold text-sm tracking-widest uppercase mb-4">Real Impact</h2>
+                        <h2 className="text-[#1a4d2e] font-bold text-sm tracking-widest uppercase mb-4">IMPACTO REAL</h2>
                         <h3 className="text-4xl font-serif font-bold text-stone-900 mb-6">
-                            Mapping <span className="text-[#c4703d]">43.000 hectares</span> approximately
+                           Mais <span className="text-[#c4703d]">Eficiência</span> no Investimento Público
                         </h3>
                         <p className="text-lg text-stone-600 mb-10">
-                            The tool makes it possible to check changes in mangroves over the last five years, since 2020, as well as
-                            identify mangrove areas in the country.
+                          O sistema altera radicalmente a forma como o
+                          Estado planifica e gere os projectos. Uma única plataforma centraliza a
+                          preparação, aprovação e execução dos projectos patrimoniais do Estado
+                          sem grandes intervenções humanas.
                         </p>
 
                         <div className="grid grid-cols-2 gap-6">
                             {[
                                 {
-                                    label: "Sites Mapped",
-                                    value: "16",
+                                    label: "Províncias Integradas na Plataforma",
+                                    value: "21",
                                     suffix: "+",
                                 },
                                 {
-                                    label: "Data Points",
-                                    value: "1.000",
-                                    suffix: "+",
+                                    label: "Cobertura do Território Nacional",
+                                    value: "95%"
                                 },
                                 {
-                                    label: "Hectares Mapped",
-                                    value: "43.367",
-                                    // suffix: "%",
+                                    label: "Resolução Máxima de Imagem Satelital",
+                                    value: "50 cm",
                                 },
                                 {
-                                    label: "Year Old Project",
-                                    value: "1",
+                                    label: "Monitorizados Anualmente",
+                                    value: "USD 2,5 Mil Milhões",
                                     suffix: "",
                                 },
                             ].map((stat, index) => (
                                 <div key={index} className="bg-white p-6 rounded-xl border border-stone-100 shadow-sm">
-                                    <div className="text-3xl md:text-4xl font-bold text-[#1a4d2e] mb-1 font-serif">
+                                    <div className="text-3xl md:text-4xl font-bold text-[#c4703d] mb-1 font-serif">
                                         {stat.value}
                                         <span className="text-[#c4703d] text-2xl">{stat.suffix}</span>
                                     </div>

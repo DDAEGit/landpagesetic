@@ -5,23 +5,23 @@ export function HowItWorks() {
     const steps = [
         {
             icon: Satellite,
-            title: "Mangrove Mapping",
-            description: "",
+            title: "Georreferenciação Exacta",
+            description: "Identificação precisa da localização de cada intervenção e visualização remota do estado físico das obras em tempo real.",
         },
         {
             icon: ChartColumn,
-            title: "Statistical Data Module",
-            description: "",
+            title: "Integração SIGPIP (Gestão)",
+            description: " Acompanhamento do ciclo de vida: projectos em caracterização, aguardando contrato, em execução, suspensos ou concluídos.",
         },
         {
             icon: GalleryHorizontal,
-            title: "Change Detection",
-            description: "",
+            title: "Detecção Automática com IA",
+            description: "Identificação das diferentes camadas da construção  rodoviária (leito, sub-base, base e asfalto) e medição de secções concluídas.",
         },
     ];
 
     return (
-        <section id="technology" className="py-20 bg-[#1a4d2e] text-white overflow-hidden relative">
+        <section id="technology" className="py-20 bg-[#2a1206] text-white overflow-hidden relative">
             {/* Background Pattern */}
             <div className="absolute inset-0 opacity-5">
                 <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
@@ -36,11 +36,12 @@ export function HowItWorks() {
 
             <div className="container mx-auto px-4 md:px-6 relative z-10">
                 <div className="text-center max-w-3xl mx-auto mb-16">
-                    <h2 className="text-[#c4703d] font-bold text-sm tracking-widest uppercase mb-4">How It Works</h2>
-                    <h3 className="text-3xl md:text-4xl font-serif font-bold mb-6">AI-Powered Mangrove Mapping</h3>
+                    <h2 className="text-[#c4703d] font-bold text-sm tracking-widest uppercase mb-4">COMO FUNCIONA</h2>
+                    <h3 className="text-3xl md:text-4xl font-serif font-bold mb-6">Monitorização Potenciada por Inteligência Artificial</h3>
                     <p className="text-white/80 text-lg">
-                        The tool allows visualization of mangrove areas throughout the national territory, as well as their total area;
-                        statistical data by province and by mangrove areas allowing comparison with previous periods.
+                      A plataforma permite a visualização centralizada do
+                      estado físico e financeiro dos projectos nas 21 províncias de Angola,
+              cruzando dados contratuais com evidências satelitais.
                     </p>
                 </div>
 
