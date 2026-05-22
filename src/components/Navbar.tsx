@@ -16,14 +16,14 @@ export function Navbar() {
     }, []);
 
     const institutionalLogos = [
-        { src: "/logminf.png", label: "MINF", height: "h-12" },
+        { src: "/logminf.png", label: "MINFIN", height: "h-12" },
         { src: "/minttics.gov.png", label: "MINTTICS", height: "h-12" },
     ];
 
     const poweredByLogos = [
         { src: "/GGPEN_LOGO-scaled (1).png", label: "GGPEN", height: "h-8" },
         { src: "/setic_logo_nobackgd.png", label: "SETIC", height: "h-8" },
-        { src: "/dnoe.png", label: "GEDAE", height: "h-8" },
+        { src: "/dnoe.png", label: "DNOE", height: "h-8" },
     ];
 
     return (
