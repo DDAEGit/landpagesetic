@@ -11,7 +11,7 @@ export function Hero() {
                 <div
                     className="absolute inset-0 scale-110"
                     style={{
-                        backgroundImage: "url('./ministra.jpg')",
+                        backgroundImage: "url('./ministra1.jepg')",
                         backgroundAttachment: "fixed",
                         backgroundSize: "cover",
                         backgroundPosition: "center",
