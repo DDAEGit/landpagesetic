@@ -13,9 +13,8 @@ export function Footer() {
                             </span>
                         </div>
                         <p className="text-stone-400 max-w-md mb-8 leading-relaxed">
-                          Uma iniciativa governamental conjunta entre o
-                          MINFIN, MINPLAN e GGPEN/MINTTICS, unindo tecnologia espacial e gestão financeira para preservar os recursos do Estado e garantir infra-
-                          estruturas de excelência em Angola.
+                            Uma iniciativa governamental conjunta entre o MINFIN, MINPLAN e GGPEN/MINTTICS, unindo tecnologia espacial e
+                            gestão financeira para preservar os recursos do Estado e garantir infra- estruturas de excelência em Angola.
                         </p>
                         <div className="flex gap-4">
                             {/* Placeholder Social Icons */}
@@ -76,16 +75,15 @@ export function Footer() {
                 </div>
 
                 <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-stone-500 text-sm">
-                    <p>© 2026 Ministério das Finanças / GGPEN. Todos os
-                    direitos reservados.</p>
-                    <div className="flex items-center gap-2">
+                    <p>© 2026 Ministério das Finanças / GGPEN. Todos os direitos reservados.</p>
+                    {/* <div className="flex items-center gap-2">
                         <span>Desenvolvido com orgulho em </span>
                         <span className="font-bold text-white">Angola</span>
                         <div className="flex h-3 w-4 border border-white/20">
                             <div className="w-1/2 bg-[#CD2A3E]"></div>
                             <div className="w-1/2 bg-black"></div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </footer>

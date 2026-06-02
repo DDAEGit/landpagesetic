@@ -11,7 +11,7 @@ export function Hero() {
                 <div
                     className="absolute inset-0 scale-110"
                     style={{
-                        backgroundImage: "url('./ministra1.jpeg')",
+                        backgroundImage: "url('./ministra.jpg')",
                         backgroundAttachment: "fixed",
                         backgroundSize: "cover",
                         backgroundPosition: "center",
@@ -32,11 +32,7 @@ export function Hero() {
 
             <div className="container mx-auto px-4 md:px-6 relative z-10 pt-20">
                 <div className="max-w-3xl">
-                    <motion.div
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.8 }}
-                    >
+                    <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
                         {/* Badge */}
                         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#c4703d]/20 backdrop-blur-sm border border-[#ddd4a1] text-white/90 text-sm font-medium mb-6">
                             <Satellite className="w-4 h-4 text-[#ddd4a1]" />
@@ -49,14 +45,18 @@ export function Hero() {
                         {/* Descrição */}
                         <p className="text-base md:text-lg text-stone-300 mb-8 max-w-2xl leading-relaxed">
                             A plataforma <span className="text-[#ddd4a1] font-semibold">Tech-Gest</span> integrada ao{" "}
-                            <span className="text-white font-semibold">SIGPIP</span> garante transparência, eficiência e
-                            rigor técnico na monitorização dos projectos de investimento público em todo o território nacional.
+                            <span className="text-white font-semibold">SIGPIP</span> garante transparência, eficiência e rigor técnico na
+                            monitorização dos projectos de investimento público em todo o território nacional.
                         </p>
 
                         {/* Botões */}
                         <div className="flex flex-col sm:flex-row gap-4">
                             <Button size="lg" className="group bg-[#c4703d] hover:bg-[#a85c2e] border-none">
-                                <a className="flex items-center" href="https://gedae.ggpen.gov.ao/tech-gest-setic/" rel="noopener noreferrer">
+                                <a
+                                    className="flex items-center"
+                                    href="https://gedae.ggpen.gov.ao/tech-gest-setic/"
+                                    rel="noopener noreferrer"
+                                >
                                     Explorar
                                     <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
                                 </a>

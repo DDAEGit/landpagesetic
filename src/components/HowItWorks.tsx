@@ -6,17 +6,20 @@ export function HowItWorks() {
         {
             icon: Satellite,
             title: "Georreferenciação Exacta",
-            description: "Identificação precisa da localização de cada intervenção e visualização remota do estado físico das obras em tempo real.",
+            description:
+                "Identificação precisa da localização de cada intervenção e visualização remota do estado físico das obras em tempo real.",
         },
         {
             icon: ChartColumn,
             title: "Integração SIGPIP (Gestão)",
-            description: " Acompanhamento do ciclo de vida: projectos em caracterização, aguardando contrato, em execução, suspensos ou concluídos.",
+            description:
+                " Acompanhamento do ciclo de vida: projectos em caracterização, aguardando contrato, em execução, suspensos ou concluídos.",
         },
         {
             icon: GalleryHorizontal,
             title: "Detecção Automática com IA",
-            description: "Identificação das diferentes camadas da construção  rodoviária (leito, sub-base, base e asfalto) e medição de secções concluídas.",
+            description:
+                "Identificação das diferentes camadas da construção  rodoviária (leito, sub-base, base e asfalto) e medição de secções concluídas.",
         },
     ];
 
@@ -39,9 +42,8 @@ export function HowItWorks() {
                     <h2 className="text-[#c4703d] font-bold text-sm tracking-widest uppercase mb-4">COMO FUNCIONA</h2>
                     <h3 className="text-3xl md:text-4xl font-serif font-bold mb-6">Monitorização Potenciada por Inteligência Artificial</h3>
                     <p className="text-white/80 text-lg">
-                      A plataforma permite a visualização centralizada do
-                      estado físico e financeiro dos projectos nas 21 províncias de Angola,
-              cruzando dados contratuais com evidências satelitais.
+                        A plataforma permite a visualização centralizada do estado físico e financeiro dos projectos nas 21 províncias de
+                        Angola, cruzando dados contratuais com evidências satelitais.
                     </p>
                 </div>
 
@@ -66,7 +68,7 @@ export function HowItWorks() {
                             }}
                             className="bg-white/5 backdrop-blur-sm border border-white/10 p-8 rounded-2xl hover:bg-white/10 transition-colors"
                         >
-                            <div className="w-14 h-14 bg-[#c4703d] rounded-xl flex items-center justify-center mb-6 shadow-lg rotate-3 group-hover:rotate-6 transition-transform">
+                            <div className="w-14 h-14 bg-[#c4703d] rounded-xl flex items-center justify-center mb-6 shadow-lg group-hover:rotate-6 transition-transform">
                                 <step.icon className="w-7 h-7 text-white" />
                             </div>
                             <h4 className="text-xl font-bold mb-3 font-serif">{step.title}</h4>
