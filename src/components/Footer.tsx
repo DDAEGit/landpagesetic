@@ -9,7 +9,7 @@ export function Footer() {
                         <div className="flex items-center gap-2 mb-6">
                             <Leaf className="w-6 h-6 text-[#c4703d]" />
                             <span className="font-serif font-bold text-xl tracking-tight">
-                                Tech <span className="text-[#c4703d]">-Gest</span>
+                                Tech<span className="text-[#c4703d]">-Gest</span>
                             </span>
                         </div>
                         <p className="text-stone-400 max-w-md mb-8 leading-relaxed">

@@ -24,8 +24,8 @@ export function Navbar() {
     const poweredByLogos = [
         { src: "/GGPEN_LOGO-scaled (1).png", label: "GGPEN", height: "h-8" },
         { src: "/setic_logo_nobackgd.png", label: "SETIC", height: "h-8" },
-        { src: "/dnoe.png", label: "DNOE", height: "h-8" },
-        { src: "/dnip.png", label: "DNIP", height: "h-8" },
+        { src: "/dnoe.png", label: "DNOE", height: "h-7" },
+        { src: "/dnip.png", label: "DNIP", height: "h-5" },
     ];
 
     return (
