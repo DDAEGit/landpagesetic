@@ -46,11 +46,11 @@ export function Navbar() {
                                     alt={`${label} Logo`}
                                     className={`${height} w-auto object-contain transition-transform duration-200 group-hover:scale-105`}
                                 />
-                                <span
+                                {/* <span
                                     className={`${label !== "MINPLAN" || "mt-2"} text-[8px] font-bold text-stone-400 uppercase tracking-widest`}
                                 >
                                     {label}
-                                </span>
+                                </span> */}
                             </div>
                         ))}
                     </div>
@@ -67,7 +67,7 @@ export function Navbar() {
                                             alt={`${label} Logo`}
                                             className={`${height} w-auto object-contain transition-transform duration-200 group-hover:scale-105`}
                                         />
-                                        <span className="text-[8px] font-bold text-stone-400 uppercase tracking-widest">{label}</span>
+                                        {/* <span className="text-[8px] font-bold text-stone-400 uppercase tracking-widest">{label}</span> */}
                                     </div>
                                     {index < poweredByLogos.length - 1 && <div className="w-px h-6 bg-stone-100" />}
                                 </React.Fragment>
@@ -110,7 +110,7 @@ export function Navbar() {
                                 {[...institutionalLogos, ...poweredByLogos].map(({ src, label }) => (
                                     <div key={label} className="flex flex-col items-center gap-1">
                                         <img src={src} alt={`${label} Logo`} className="h-8 w-auto object-contain" />
-                                        <span className="text-[8px] font-bold text-stone-400 uppercase tracking-widest">{label}</span>
+                                        {/* <span className="text-[8px] font-bold text-stone-400 uppercase tracking-widest">{label}</span> */}
                                     </div>
                                 ))}
                             </div>
